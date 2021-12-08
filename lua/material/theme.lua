@@ -545,7 +545,16 @@ theme.loadPlugins = function()
 		FernBranchText =						{ fg = material.blue },
 
 		-- Lightspeed
-		LightspeedLabel =						{ fg = material.darkorange },
+		LightspeedLabel =						{ fg = material.darkgreen, style = 'bold,underline' },
+		LightspeedLabelOverlapped =						{ fg = material.darkred, style = 'bold,underline' },
+		LightspeedLabelDistant =						{ fg = material.darkpurple, style = 'bold,underline' },
+		LightspeedLabelDistantOverlapped =						{ fg = material.darkpurple, style = 'bold,underline' },
+		LightspeedShortcut =						{ fg = material.blue, style = 'bold,underline' },
+		LightspeedShortcutOverlapped =						{ fg = material.blue, style = 'bold,underline' },
+		LightspeedMaskedChar =						{ fg = material.darkpurple, style = 'bold' },
+    LightspeedGreyWash =						{ fg = material.comments },
+		LightspeedUnlabeledMatch =						{ fg = material.darkorange, style = 'bold' },
+		LightspeedUniqueChar =						{ fg = material.darkorange, style = 'bold' },
 	}
 
     -- Options:
