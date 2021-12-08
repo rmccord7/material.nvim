@@ -543,6 +543,9 @@ theme.loadPlugins = function()
 
 		-- Fern
 		FernBranchText =						{ fg = material.blue },
+
+		-- Lightspeed
+		LightspeedLabel =						{ fg = material.darkorange },
 	}
 
     -- Options:
